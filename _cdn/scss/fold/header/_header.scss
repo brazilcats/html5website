@@ -1,0 +1,87 @@
+.main_header{
+  width: 100%;
+  margin: 0 auto;
+  background: $azulbk;
+  //background: linear-gradient(180deg, rgba(246,247,252,1) 0%, rgba(246,247,252,1) 30%, rgba(225,228,246,1) 35%, rgba(208,213,242,1) 100%);
+  //background: linear-gradient(to bottom,hsl(0, 0%, 100%) 0%,hsl(0, 0%, 100%) 50%,hsl(0, 0%, 100%) 50%,hsl(0, 0%, 100%) 100%);
+}
+
+.main_header .main_header_content{
+  max-width: $largura;
+  margin: 0 auto;
+  display: flex;
+}
+
+.main_header .main_header_content .logo{
+  flex-basis: 20%;
+  padding: 10px 0;
+  width: 200px;
+}
+
+.main_header .main_header_content .logo img{
+  flex-basis: 20%;
+  padding: 20px;
+  max-width: 100%;
+}
+
+.main_header .main_header_content .main_header_content_menu{
+  flex-basis: 80%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main_header_content_menu ul{
+  display: flex;
+  align-items: stretch;
+  margin: 0;
+}
+
+.main_header_content_menu ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.main_header_content_menu ul li a{
+  padding: 15px;
+  margin: 0 10px;
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  color: $verde;
+}
+
+.main_header .telcontato {
+  background-color: #fff;
+  width: 100%;
+  text-align: right;
+  display: block;
+  padding: 10px;
+  color: $roxo;
+  font-size: 0.875em;
+  font-weight: 500;
+  text-align: right;
+}
+
+.main_header .telcontato .telarea {
+  margin: 0 auto;
+  max-width: $largura;
+}
+
+.main_header .telcontato span {
+  font-size: 1em;
+}
+
+.main_header_content_menu ul li .active{
+  color: $roxo;
+  background-color: #FFF;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.main_header_content_menu ul li a:hover{
+  color: #FFF;
+  background-color: $roxo;
+  text-decoration: none;
+  border-radius: 5px;
+}

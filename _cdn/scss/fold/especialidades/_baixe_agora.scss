@@ -1,0 +1,49 @@
+/* OPTIN */
+
+.main_baixe_agora{
+  width: 100%;
+  background-color: #36C78E;
+  padding: 20px 0;
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.main_baixe_agora_content{
+  max-width: $largura;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.main_baixe_agora .main_baixe_agora_header{
+  max-width: $largura;
+  margin: 0 auto;
+}
+
+.main_baixe_agora .main_baixe_agora_header h1{
+  font-weight: 700;
+  font-size: 1.8em;
+  text-align: center;
+  width:100%;
+  color: #fff;
+}
+
+.main_baixe_agora .main_baixe_agora_content p{
+  font-size: 1.2em;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  }
+
+.main_baixe_agora .main_baixe_agora_botao { 
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  position: absolute;
+  bottom: -40px;
+  left: calc(50% - 120px);
+  padding: 10px 60px;
+  font-size: 1.2em;
+  border: #fff solid 5px; 
+  border-radius: 25px;
+}

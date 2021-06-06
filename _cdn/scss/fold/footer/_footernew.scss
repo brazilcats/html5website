@@ -1,0 +1,130 @@
+.main_optin_footer{
+  width: 100%;
+  background-color: $azulbk;
+}
+
+.main_optin_footer_content{
+  max-width: $largura;
+  padding: 40px 20px;
+  text-align: center;
+  margin: 0 auto;
+  color: #333;
+}
+
+.main_optin_footer_content .main_option_footer_botao {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  padding: 10px 60px;
+  font-size: 1.2em;
+  border: #fff solid 5px;
+  box-shadow: 5px 10px 10px #888888;
+  border-radius: 25px;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+}
+
+.main_optin_footer_content h1{
+  font-size: 1.4em;
+  margin-bottom: 40px;
+}
+
+.main_footer{
+  width: 100%;
+  padding: 40px 40px;
+  color: #6c757d;
+  background-image: url(../../_img/footerok.svg);
+  background-repeat: no-repeat;
+  background-position: center 101%;
+  background-size: 100vw;
+  background-color: #ffffff;
+  padding-bottom: 210px;
+}
+
+.main_footer .main_footer_content {
+  max-width: $largura;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main_footer .main_footer_content > header {
+  flex-basis: 100%;
+}
+
+.main_footer .main_footer_content > header h1{
+  font-size: 1.4em;
+  margin-bottom: 40px;
+}
+
+.main_footer_our_pages, .main_footer_links{
+  flex-basis: 33%;
+}
+
+.main_footer_about{
+  flex-basis: 33%;
+}
+
+.main_footer .main_footer_content > article h2{
+  margin-bottom: 20px;
+  font-size: 1em;
+}
+
+.main_footer .main_footer_content > article ul li{
+  list-style: none;
+  margin: 5px 0;
+}
+
+.main_footer .main_footer_content > article ul li a{
+  color: #6c757d;
+}
+
+.main_footer .main_footer_content > article ul li a:hover{
+  text-decoration: underline;
+}
+
+.main_footer_about ul span{
+  background-color: #6c757d;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 1.5em;
+  display: inline-block;
+  padding: 7px 7px 7px 14px;
+  margin-right: 10px;
+}
+
+.main_footer_about ul li{
+  font-weight: 500;
+}
+
+.main_footer_about .main_footer_redes {
+  display: flex;
+  margin-left: 15px;
+}
+
+.main_footer_about .main_footer_redes span {
+  background-color: #6c757d;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 1.5em;
+  display: inline-block;
+  padding: 7px 7px 7px 14px;
+  margin-right: 10px;
+  flex-basis: 10%;
+}
+
+.main_footer .main_footer_content .main_footer_about ul li{
+  list-style: none;
+  margin: 15px;
+}
+
+.main_footer_rights{
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  background-color: $azulbk;
+  font-size: 1em;
+  color: #0a1024;
+  font-weight: 400;
+}

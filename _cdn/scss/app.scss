@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+$verde: #2fa884;
+$roxo: #856694;
+$branco: #fff;
+$largura: 1100px;
+$body-bg: #fff;
+$body-color: #111;
+$azulbk: #D0D5F2;
+$azulescuro:#785c8a;
+$cinza: #7E8283;
+$spacer : 1rem;
+
+$theme-colors: (
+  "primary": #0074d9,
+  "danger": #ff4136,
+  "orange": #d36833,
+  "azulescuro": $azulescuro,
+  "azulbk": $azulbk,
+  "branco": $branco,
+  "verde": $verde,
+  "roxo" : $roxo
+);
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "slick";
+@import "slick-theme";
+
+
+* {
+  outline: none !important;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 1em;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+  max-width: calc(#{$largura} - 40px);
+}
+
+.ds_none{
+  display: none !important;
+}
+
+@import "addons/facebook";
+
+//header
+@import "fold/header/header";
+@import "fold/header/cta";
+
+//home
+@import "fold/home/blog";
+@import "fold/home/atividades";
+@import "fold/home/course";
+@import "fold/home/reviews";
+@import "fold/home/texts";
+@import "fold/home/video";
+@import "fold/home/saude";
+@import "fold/home/school";
+@import "fold/home/tutor";
+@import "fold/home/content";
+
+
+//empresa
+@import "fold/empresas/empresas_jornada";
+@import "fold/empresas/resultados";
+@import "fold/empresas/jornada";
+@import "fold/empresas/programas";
+
+//especialidades
+@import "fold/especialidades/autocuidado";
+@import "fold/especialidades/nossarede";
+@import "fold/especialidades/maisdedez";
+@import "fold/especialidades/baixe_agora";
+
+//comum
+@import "fold/comum/solto";
+
+//footer
+@import "fold/footer/footernew";
+@import "fold/footer/optin";
+
+//mobile
+@import "fold/mobile/mobilew";
+

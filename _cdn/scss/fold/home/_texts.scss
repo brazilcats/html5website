@@ -1,0 +1,68 @@
+/* OPTIN */
+
+.main_texts{
+  width: 100%;
+  margin: 10px 0;
+}
+
+.main_texts_content{
+  max-width: calc(#{$largura} - 40px);
+  padding: 40px 40px 40px 40px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.main_texts_content div{
+  text-align: center;
+  font-size: 1.1em;
+  color: $azulescuro;
+}
+
+.main_texts_content header{
+  flex-basis: 40%;
+}
+
+.main_texts_content form{
+  flex-basis: 60%;
+}
+
+.main_texts_content header h1, .main_texts_content header p{
+  color: #FFF;
+  margin-right: 20px;
+  text-align: right;
+}
+
+.main_texts_content header h1{
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+.main_texts_content header p{
+  font-weight: 300;
+  font-size: 0.875em;
+}
+
+.main_texts_content form{
+  display: flex;
+  justify-content: space-between;
+}
+
+.main_texts_content form input[type=text], .main_texts_content form input[type=email]{
+  flex-basis: 37%;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border: none;
+  max-height: 50px;
+  padding: 0px 10px;
+}
+
+.main_texts_content form button{
+  flex-basis: 20%;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  max-height: 50px;
+  border: none;
+  font-size: 0.875em;
+}

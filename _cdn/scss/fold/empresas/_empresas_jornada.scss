@@ -1,0 +1,112 @@
+.main_empresas_jornada{
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.main_empresas_jornada h1{
+  max-width: calc(#{$largura} - 200px);
+  margin: 0 auto;
+  padding: 10px 20px 30px 20px;
+  font-size: 2.4em;
+  color: $roxo;
+  text-align: left;
+}
+
+.main_empresas_jornada_content{
+  max-width: calc(#{$largura} - 200px);
+  margin: 0 auto;
+  padding: 10px 20px 30px 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main_empresas_jornada_content .main_empresas_direita {
+ flex-basis: 100%;
+ padding: 10px 0;
+ text-align: left;
+ display: flex;
+}
+
+.main_empresas_jornada_content .main_empresas_esquerda {
+  flex-basis: 100%;
+  padding: 10px 0;
+  text-align: right;
+  display: flex;
+}
+
+.main_empresas_vazio {
+  flex-basis: 60%;
+}
+
+.main_empresas_bola {
+  flex-basis: 10%;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 700;
+  margin: 10px;
+}
+
+.main_empresas_area {
+  flex-basis: 40%;
+}
+
+.main_empresas_area p {
+  color: #AEAEAF;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.main_empresas_bola .bola1 {
+  background-color: #6FB793;
+  border: $cinza solid 1px;
+  font-family: Nunito, Arial, sans-serif;
+  text-shadow: #856694 2px 2px 2px;
+  padding: 20px 25px;
+}
+
+.main_empresas_bola .bola2 {
+  background-color: #52CDA3;
+  border: $cinza solid 1px;
+  font-family: Nunito, Arial, sans-serif;
+  text-shadow: #856694 2px 2px 2px;
+  padding: 20px 25px;
+}
+
+.main_empresas_bola .bola3 {
+  background-color: #B37ED7;
+  border: $cinza solid 1px;
+  font-family: Nunito, Arial, sans-serif;
+  text-shadow: #856694 2px 2px 2px;
+  padding: 20px 25px;
+}
+
+.main_empresas_bola .bola4 {
+  background-color: #A55BB3;
+  border: $cinza solid 1px;
+  font-family: Nunito, Arial, sans-serif;
+  text-shadow: #856694 2px 2px 2px;
+  padding: 20px 25px;
+}
+
+.main_empresas_area .texto1 {
+  color: #6FB793;
+}
+
+.main_empresas_area .texto2 {
+  color: #52CDA3;
+}
+
+.main_empresas_area .texto3 {
+  color: #B37ED7;
+}
+
+.main_empresas_area .texto4 {
+  color: #A55BB3;
+}
+
+.main_empresas_bola span {
+  padding: 20px 30px;
+  border-radius: 50%;
+}
+

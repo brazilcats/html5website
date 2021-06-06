@@ -1,0 +1,123 @@
+.main_course{
+  width: $largura;
+  margin: 0 auto;
+}
+
+.main_course .main_course_header{
+  max-width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+  text-align: center;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.main_course .main_course_header .btn{
+  padding: 10px 40px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.main_course .main_course_header img{
+  margin-bottom: 20px;
+  width: 200px;
+}
+
+.main_course .main_course_header h1{
+  font-size: 2em;
+  text-align: left;
+  margin: 0 20px;
+  color: $cinza;
+}
+
+.main_course_content{
+  max-width: $largura;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.main_course_content article{
+  flex-basis: calc(50% - 40px);
+  margin: 20px 0;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 20px;
+}
+
+.main_course_content article h2{
+  font-size: 1.3em;
+  color: $azulescuro;
+  margin-bottom: 4px;
+}
+
+.main_course_content article p{
+  font-size: 1em;
+  color: $cinza;
+  margin: 0;
+  padding: 0;
+}
+
+.main_course_fullwidth{
+  width: 100%;
+  background-color: $verde; 
+  padding: 40px 0;
+}
+
+.main_course_rating_content{
+  max-width: $largura;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.main_course_rating_content_title{
+  color: #FFF;
+  text-align: center;
+}
+
+.main_course_rating_content_title h2{
+  font-size: 2.4em;
+  margin-bottom: 20px;
+}
+
+.main_course_rating_content_comment{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main_course_rating_content_comment > header{
+  flex-basis: 100%;
+  color: #FFF;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.main_course_rating_content_comment > article{
+  flex-basis: calc(50% - 20px);
+  margin: 20px 0;
+  background-color: #FFF;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 20px;
+  color: #333;
+}
+
+.main_course_rating_content_comment > article h3{
+  font-size: 1.2em;
+  margin-bottom: 4px;
+}
+
+.main_course_rating_content_comment > article img{
+  width: 15px;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}

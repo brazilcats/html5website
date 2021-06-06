@@ -1,0 +1,51 @@
+$verde: #2fa884;
+$roxo: #856694;
+$branco: #fff;
+$largura: 1300px;
+$body-bg: #fff;
+$body-color: #111;
+$azulbk: #D0D5F2;
+$azulescuro: #32397F;
+$cinza: #7E8283;
+$spacer : 1rem;
+
+$theme-colors: (
+  "primary": #0074d9,
+  "danger": #ff4136,
+  "orange": #d36833,
+  "branco": $branco,
+  "verde": $verde,
+  "roxo" : $roxo
+);
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+* {
+  outline: none !important;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 1em;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+  max-width: calc(#{$largura} - 40px);
+}
+
+.ds_none{
+  display: none !important;
+}
+
+@import "addons/facebook";
+@import "fold/header";
+@import "fold/cta";
+@import "fold/blog";
+@import "fold/optin";
+@import "fold/fazemos";
+@import "fold/school";
+@import "fold/tutor";
+@import "fold/content";
+@import "fold/footernew";
+@import "fold/mobile";

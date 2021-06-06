@@ -1,0 +1,141 @@
+.main_programas{
+  width: 100%;
+}
+
+.main_programas .main_programas_header{
+  max-width: $largura;
+  padding: 0 20px;
+  margin: 0 auto;
+  text-align: left;
+  color: $cinza;
+  margin-bottom: 40px;
+}
+
+.main_programas .main_programas_header img{
+  margin-bottom: 20px;
+  width: 200px;
+}
+
+.main_programas .main_programas_header h1{
+  margin: 0 10px;
+  font-size: 1.8em;
+}
+
+.main_programas_content{
+  max-width: $largura;
+  margin: 0 auto;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.main_programas_content article{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.main_programas_content .borderbottom{
+  border-bottom: #A5EFD8 solid 1px;
+}
+
+.main_programas_content article header{
+ flex-basis: 50%;
+}
+
+.main_programas_content article .main_programas_texto
+{
+  flex-basis: 50%;
+  padding: 20px 30px 20px 30px;
+}
+
+.main_programas_content article .main_programas_texto h3
+{
+  color: $cinza;
+  font-size: 1.6em;
+}
+
+.main_programas_content article .main_programas_texto h3 span
+{
+  color: #D9DADB;
+}
+
+.main_programas_content article .main_programas_texto p
+{
+  color: $cinza;
+  font-size: 1em;
+}
+
+.main_programas_content article header h2{
+  text-align: left;
+  color: #fff;
+  font-size: 2em;
+  margin-bottom: 4px;
+  padding: 130px 10px 0 10px;
+  text-shadow: 1px 2px 12px #7e8283
+}
+
+.main_programas_content article p{
+  font-size: 0.9em;
+  margin: 0;
+  padding: 0;
+  color: $cinza;
+}
+
+.main_programas_fullwidth{
+  width: 100%;
+  background-color: $verde; 
+  padding: 40px 0;
+}
+
+.main_programas_rating_content{
+  max-width: $largura;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.main_programas_rating_content_title{
+  color: #FFF;
+  text-align: center;
+}
+
+.main_programas_rating_content_title h2{
+  font-size: 2.4em;
+  margin-bottom: 20px;
+}
+
+.main_programas_rating_content_comment{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main_programas_rating_content_comment > header{
+  flex-basis: 100%;
+  color: #FFF;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.main_programas_rating_content_comment > article{
+  flex-basis: calc(50% - 20px);
+  margin: 20px 0;
+  background-color: #FFF;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 20px;
+  color: #333;
+}
+
+.main_programas_rating_content_comment > article h3{
+  font-size: 1.2em;
+  margin-bottom: 4px;
+}
+
+.main_programas_rating_content_comment > article img{
+  width: 15px;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}

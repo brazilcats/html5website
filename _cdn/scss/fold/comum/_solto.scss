@@ -1,0 +1,47 @@
+/* OPTIN */
+
+.main_frase_solta{
+  width: 100%;
+  margin: -60px auto 0 auto;
+}
+
+.main_frase_solta_content{
+  max-width: $largura;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.main_frase_solta_content h1{
+  font-weight: 700;
+  font-size: 2.5em;
+  padding: 20px;
+  width:100%;
+  color: #A7A7A7;
+}
+
+
+.main_frase_solta_ball{
+  width: 100%;
+  background-image: url(../../_img/ballleft.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  padding: 40px 0;  
+  margin-bottom: 40px;
+}
+
+.main_frase_solta_content_ball{
+  max-width: $largura;
+  margin: 0 auto;
+}
+
+.main_frase_solta_content_ball h1{
+  font-weight: 700;
+  font-size: 2.5em;
+  padding: 20px;
+  width:100%;
+  text-align: center;
+  color: $cinza;
+}

@@ -1,0 +1,121 @@
+/* OPTIN */
+
+.main_saude{
+  width: 100%;
+  margin: 40px 0;
+}
+
+.main_saude_content{
+  max-width: 100%;
+  background-color: #f1f1f1;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.main_saude_content article{
+  flex-basis: 50%;
+}
+
+.main_saude_content .areaazul{
+  width: 100%;
+  background-image: url(../../_img/world.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100vw;
+  background-color: $azulbk;
+  display: flex;
+  justify-content: flex-end;  
+}
+
+.main_saude_content .areaazul div{
+  flex-basis: 20%;
+  padding: 25px;
+  border-radius: 50%;
+}
+
+.main_saude_content .areabranca{
+  background-color: #f1f1f1;
+}
+
+.main_saude .areafooter{
+  text-align: center;
+  display: block;
+}
+
+.main_saude_content .areabranca h1{
+  font-weight: 400;
+  font-size: 2em;
+  padding: 20px;
+  width:100%;
+  color: $azulescuro;
+}
+
+.main_saude .areafooter h2{
+  font-size: 1.3em;
+  padding: 20px;
+  text-align: center;
+  color: $azulescuro;
+}
+
+.main_saude .areafooter button{
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  padding: 10px 60px;
+  font-size: 1.2em;
+  border: #fff solid 5px;
+  border-radius: 25px;
+  box-shadow: 5px 10px 10px #888888;
+}
+
+.main_saude_content header h1, .main_saude_content header p{
+  color: $azulescuro;
+  margin-right: 20px;
+  text-align: right;
+}
+
+.main_saude_content header h1{
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+.main_saude_content header p{
+  font-weight: 300;
+  font-size: 0.875em;
+}
+
+.main_saude_content form{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+    
+.main_saude_content article{
+  display: flex;
+  justify-content: space-between;
+}
+
+.main_saude_content header input[type=text], .main_saude_content form input[type=email]{
+  flex-basis: 100%;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border: none;
+  max-height: 50px;
+  margin: 10px 0;
+  padding: 5px 10px;
+}
+
+.main_saude_content header button{
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  padding: 10px 60px;
+  font-size: 1.2em;
+  border: #fff solid 5px;
+  border-radius: 25px;
+  box-shadow: 5px 10px 10px #888888;
+}

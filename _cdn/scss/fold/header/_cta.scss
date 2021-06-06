@@ -1,0 +1,53 @@
+.main_cta{
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  background-color: $azulbk;
+}
+
+.main_cta_content{
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.main_cta .main_cta_content h1{
+  padding-top: 15px;
+  font-size: 2.4em;
+  color: #fff;
+  text-align: left;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.main_cta .main_cta_content p{
+  font-size: 1.3em;
+  color: #fff;
+  font-weight: 500;
+  text-align: left;
+  text-shadow: 1px 1px 6px #000;
+}
+
+.main_cta .main_cta_content .btn{
+  font-size: 0.8em;
+  padding: 10px 40px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.main_cta .main_cta_content .main_cta_content_spacer{
+  padding: 10px 20px 30px 20px;
+  max-width: calc(#{$largura} - 200px);
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main_cta .main_cta_content_footer{
+  max-width: 100%;
+  background-image: url(../../_img/headeroksombra.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100vw;
+  background-color: #ffffff;
+  padding-bottom: 180px;
+}
+
